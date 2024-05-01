@@ -1,0 +1,271 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to bottom, #95c9ec, #02b3f4);
+    line-height: 1.6;
+    background-color: #6baaed;
+    /* background-image: url('https://www.ingluglobal.com/wp-content/uploads/2023/04/INGLU-LOGO-e1682952402574-150x150.png'); */
+    background-size: contain; /* Adjusted background-size */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header styles */
+.header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    text-decoration: none;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+}
+
+.nav-menu li {
+    margin-right: 20px;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: #030303;
+    transition: color 0.3s ease;
+}
+
+.nav-menu li a:hover {
+    color: #007bff;
+}
+
+/* Hero section styles */
+.hero {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Services section styles */
+.services {
+    padding: 80px 0;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.service-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* About section styles */
+.about {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+/* Contact section styles */
+.contact {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+
+/* Footer section styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-left {
+    flex: 1;
+    text-align: left;
+}
+
+.footer-right {
+    flex: 1;
+    text-align: right;
+}
+
+.footer-menu {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.footer-menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-menu li:last-child {
+    margin-right: 0;
+}
+
+.footer-menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-menu li a:hover {
+    color: #007bff;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+/* Social Media Links styles */
+/* Social Media Links styles */
+.social-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px; /* Add some margin to separate from navigation */
+}
+
+.social-icon {
+    margin-left: 10px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #007bff;
+}
+
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-5px); }
+}
+
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Image in footer styles */
+.footer-logo{
+    width: 100px; /* Adjust width as needed */
+    margin-top: 20px; /* Add some margin to separate from the content */
+    animation: pulse 1s ease infinite alternate; /* Add animation */
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.5); }
+}
+/* Header logo styles */
+/* Tagline styles */
+.tagline {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    /* color: #0056b3; */
+    background-color: #a0bfdf;
+    border-radius: 20px;
+}
+
+.tagline p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 10px;
+}
+.map-container {
+    margin-top: 20px;
+    width: 90%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.map-container iframe {
+    width: 90%;
+    height: 300px; /* Adjust height as needed */
+    border: none;
+}
+/* Adjust styles as needed */
